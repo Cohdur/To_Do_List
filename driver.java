@@ -31,7 +31,7 @@ public class driver extends User_Input
                 } 
                 else
                 {
-                    System.out.println("Invalid input! Please enter a valid integer.");
+                    out.println("Invalid input! Please enter a valid integer.");
                     in.next();  // Clear the invalid input
                 }
             }
@@ -54,7 +54,7 @@ public class driver extends User_Input
                     } 
                     else
                     {
-                        System.out.println("Invalid input! Please enter a valid integer.");
+                        out.println("Invalid input! Please enter a valid integer.");
                         in.next();  // Clear the invalid input
                     }
                     
